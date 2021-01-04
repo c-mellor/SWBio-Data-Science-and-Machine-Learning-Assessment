@@ -4,20 +4,20 @@ This code is designed to analyse the difference in impedance between two data se
 
 To run:
 
-**1 - Import required libraries and data for analysis
+**1 - Import required libraries and data for analysis**
 * Download “transfer.csv” and “Impedance Data Analysis” notebook to the same directory. 
 * When reading in “transfer.csv”, ensure header = None so the first row of data isn't used as a header and excluded from analysis. Alter this as required if using another dataframe.
 
-**2 - Initial data exploration
+**2 - Initial data exploration**
 * Running the head function will show “transfer.csv” has three columns. The first is frequency in kHz, the second is time in minutes and the third is impedance difference.
 * Sort the data by magnitude of impedance difference, investigating the greatest positive and negative differences over a range of rows.
 
-**3 - Plot data in two dimensions
+**3 - Plot data in two dimensions**
 * Plot impedance difference against frequency using a 2D scatter graph. You should be able to see the largest differences in impedance are at frequencies below 1250 kHz, for example 400, 800, 1080 and 1180 kHz. This is in agreement with the sorting analysis performed before. 
 
 * Next plot impedance difference against time in a scatter graph. There is a random spread of impedance differences across time, with most residing about 0 between -50 and 50. 
 
-**4 - Plot data in three dimensions
+**4 - Plot data in three dimensions**
 * Run matplotlib as a notebook instead of inline, so you can interact with the 3D graphs.
 
 * The first 3D plot is a trisurface, which is a surface plot made out of triangles.  Antialias = True makes the plot transparent, while False makes it opaque. Either can be used depending on how you want to view the plot.
