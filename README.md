@@ -1,6 +1,6 @@
 # Impedance Data Analysis
 
-This code is designed to analyse the difference in impedance between two data sets. It does this by visualising the data through a series of graphs. The individual data sets aren’t provided but "transfer.csv", which contains the difference between, them is included. Another dataframe could be analysed instead, as long as it is in the appropriate format.
+This code is designed to analyse the difference in impedance between two data sets. It does this by visualising the data through a series of graphs. The individual data sets aren’t provided but "transfer.csv", which contains the difference between them, is included. Another dataframe could be analysed instead, as long as it is in the appropriate format.
 
 To run:
 
@@ -24,6 +24,6 @@ To run:
 
 * The second 3D plot is a scatter plot and shows individual data points, instead of a surface.
 
-* The final 3D plot is a bar chart. Like the scatter plot it shows the increments of increasing time and frequency, unlike the surface plot which is continuous. However, the bar chart has depth to each data point, which the scatter plot doesn’t.
+* The final 3D plot is a bar chart. Like the scatter plot, it shows the increments of increasing time and frequency, which aren't present in the continuous surface plot. In addition, the bar chart also has depth to each data point, which the scatter plot doesn’t.
 
 * The three 3D plots should look similar to the 2D plot of impedance against frequency if viewed along the time axis, and will resemble the 2D impedance difference against time graph if viewed along the frequency axis.
